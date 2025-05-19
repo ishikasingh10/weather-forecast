@@ -1,70 +1,119 @@
-# 🌤️ Weather App
+# 🌤️ Weather Forecast Web App
 
-A sleek, modern weather application that displays real-time weather information using the [WeatherAPI](https://www.weatherapi.com/). Users can search for a city's weather conditions, get data based on their current location, and view recent searches with dynamic visuals tailored to the current weather.
+A sleek and responsive weather application that provides real-time weather updates for any city in the world or based on your current location. Built using **HTML, CSS, and JavaScript**, and powered by the **WeatherAPI**.
 
-## 🚀 Live Demo
+> 📍 Try it live: [Live Demo](https://code-wizard25.github.io/Weather-forecast/)
 
-[View the Live App] – https://code-wizard25.github.io/Weather-forecast/
+---
 
-## 🛠️ Features
+## 🔍 Features
 
-- 🔍 Search weather by city name or current location
-- 🌡️ Real-time temperature, humidity, wind, UV index, and more
-- 🎨 Dynamic background that changes with weather condition and time of day
-- 🕓 Displays local time of the searched city
-- 🧠 Remembers up to 5 recent searches using `localStorage`
-- ⚙️ Responsive UI with loading spinner and graceful error handling
+- 🌎 **Search by City** – Enter a city name to get the current weather conditions.
+- 📍 **Current Location Weather** – Automatically fetch weather based on your geolocation.
+- ⏰ **Local Time Display** – See the current local time of the searched city.
+- 🔁 **Recent Searches** – Stores your last 5 searched cities using `localStorage`.
+- 🌈 **Dynamic Backgrounds** – The background changes based on weather and time (day/night).
+- 📱 **Responsive Design** – Fully functional on desktop, tablet, and mobile devices.
+- ⚠️ **Error Handling** – User-friendly error messages for invalid city names or API issues.
 
-## 📂 Project Structure
+---
 
-├── index.html # Main HTML structure
+## 🖥️ Tech Stack
 
-├── style.css # Styles for layout and weather themes
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
+- **API**: [WeatherAPI](https://www.weatherapi.com/)
+- **Browser Storage**: localStorage for caching recent searches
 
-├── script.js # JavaScript for API interaction and dynamic UI
+---
 
+## 📁 Project Structure
 
-## 🔧 How to Use
+```bash
+weather-forecast/
+├── index.html         # Main webpage
+├── style.css          # Styles for layout and weather themes
+├── script.js          # Core logic and API integration
+└── assets/            # (Optional) Icons, images, etc.
+````
 
-1. Clone the repository:
-2. 
-   git clone https://github.com/yourusername/weather-app.git
-   
-   cd weather-app
-   
-  2.Open index.html in your browser.
-  
-3.Enter a city name or click the location icon to fetch weather data.
+---
 
-ℹ️ Make sure you have an internet connection to access WeatherAPI.
+## 📦 How It Works
 
-🔑 API Key
+1. **User Input**: Enter a city or allow browser to fetch your geolocation.
+2. **API Call**: Sends a request to WeatherAPI to retrieve current weather data.
+3. **DOM Update**: Updates weather info, local time, and UI visuals.
+4. **Storage**: Stores city name in recent searches (max 5).
 
-This project uses WeatherAPI. You may replace the included demo key in script.js with your own:
-js
+---
 
-const apiKey = "b1aa9b28656d4b50a5854737251305E";
+## 🚀 Getting Started Locally
 
-🧱 Built With
+To run this project on your local machine:
 
-HTML5
+```bash
+git clone https://github.com/ishikasingh10/weather-forecast.git
+cd weather-forecast
+open index.html  # Or open in your preferred browser/editor
+```
 
-CSS3
+> ⚠️ This app uses a demo WeatherAPI key. For full functionality:
 
-JavaScript (ES6+)
+1. Visit [https://www.weatherapi.com/](https://www.weatherapi.com/)
+2. Create an account and get your API key.
+3. Replace the API key in `script.js` with your own.
 
-WeatherAPI
+```javascript
+const apiKey = "YOUR_API_KEY_HERE"; // Replace this in script.js
+```
 
-📌 Notes
+---
 
-This is a front-end-only project using public APIs.
+## 📸 Screenshots
 
-Geolocation requires browser permission.
+| City Search                  | Dynamic Weather UI             | Local Time & Storage          |
+| ---------------------------- | ------------------------------ | ----------------------------- |
+| ![Search](assets/search.png) | ![Weather](assets/weather.png) | ![Storage](assets/recent.png) |
 
-🧑‍💻 Author
+---
 
-ISHIKA
+## ❗ Known Issues
 
-GitHub | LinkedIn
+* May not work properly if **location permissions** are denied.
+* API request limits if the demo API key is used excessively.
+
+---
+
+## 🧠 Learnings
+
+* Working with third-party APIs (WeatherAPI)
+* DOM manipulation with vanilla JavaScript
+* Implementing dynamic and responsive UI elements
+* Using `localStorage` for state persistence
+* Graceful error handling and UX enhancements
+
+---
+
+## ✨ Contributions
+
+Feel free to fork this repo and enhance it! You can:
+
+* Add hourly/weekly forecast
+* Add dark mode toggle
+* Improve animations or themes
+* Switch to React/Vue for more complex state management
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♀️ Author
+
+**Ishika Singh**
+GitHub: [@ishikasingh10](https://github.com/ishikasingh10)
 
 
