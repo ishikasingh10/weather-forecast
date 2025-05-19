@@ -33,7 +33,6 @@ weather-forecast/
 ├── index.html         # Main webpage
 ├── style.css          # Styles for layout and weather themes
 ├── script.js          # Core logic and API integration
-└── assets/            # (Optional) Icons, images, etc.
 ````
 
 ---
@@ -69,13 +68,6 @@ const apiKey = "YOUR_API_KEY_HERE"; // Replace this in script.js
 
 ---
 
-## 📸 Screenshots
-
-| City Search                  | Dynamic Weather UI             | Local Time & Storage          |
-| ---------------------------- | ------------------------------ | ----------------------------- |
-| ![Search](assets/search.png) | ![Weather](assets/weather.png) | ![Storage](assets/recent.png) |
-
----
 
 ## ❗ Known Issues
 
