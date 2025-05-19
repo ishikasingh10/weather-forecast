@@ -18,22 +18,28 @@ A sleek, modern weather application that displays real-time weather information 
 ## 📂 Project Structure
 
 ├── index.html # Main HTML structure
+
 ├── style.css # Styles for layout and weather themes
+
 ├── script.js # JavaScript for API interaction and dynamic UI
 
 
 ## 🔧 How to Use
 
 1. Clone the repository:
+2. 
    git clone https://github.com/yourusername/weather-app.git
+   
    cd weather-app
    
   2.Open index.html in your browser.
+  
 3.Enter a city name or click the location icon to fetch weather data.
 
 ℹ️ Make sure you have an internet connection to access WeatherAPI.
 
-API Key
+🔑 API Key
+
 This project uses WeatherAPI. You may replace the included demo key in script.js with your own:
 js
 
@@ -42,16 +48,22 @@ const apiKey = "b1aa9b28656d4b50a5854737251305E";
 🧱 Built With
 
 HTML5
+
 CSS3
+
 JavaScript (ES6+)
+
 WeatherAPI
 
 📌 Notes
 This is a front-end-only project using public APIs.
+
 Geolocation requires browser permission.
 
 🧑‍💻 Author
+
 ISHIKA
+
 GitHub | LinkedIn
 
 
