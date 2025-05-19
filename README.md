@@ -16,6 +16,7 @@ A sleek, modern weather application that displays real-time weather information 
 - ⚙️ Responsive UI with loading spinner and graceful error handling
 
 ## 📂 Project Structure
+
 ├── index.html # Main HTML structure
 ├── style.css # Styles for layout and weather themes
 ├── script.js # JavaScript for API interaction and dynamic UI
@@ -34,13 +35,12 @@ A sleek, modern weather application that displays real-time weather information 
 
 API Key
 This project uses WeatherAPI. You may replace the included demo key in script.js with your own:
-
 js
-Copy
-Edit
+
 const apiKey = "b1aa9b28656d4b50a5854737251305E";
 
 🧱 Built With
+
 HTML5
 CSS3
 JavaScript (ES6+)
