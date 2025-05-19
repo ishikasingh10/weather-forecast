@@ -56,6 +56,7 @@ JavaScript (ES6+)
 WeatherAPI
 
 📌 Notes
+
 This is a front-end-only project using public APIs.
 
 Geolocation requires browser permission.
